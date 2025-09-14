@@ -450,5 +450,6 @@ export {
     forgotPasswordRequest,
     resetForgottenPassword,
     changeCurrentPassword,
-    getCurrentUser
+    getCurrentUser,
+    refreshAccessToken
     }
