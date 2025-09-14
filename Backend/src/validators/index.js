@@ -2,7 +2,7 @@ import {body} from 'express-validator'
 
 
 
-const userResgisterValidator = () => {
+const userRegisterValidator = () => {
     return [
         body("email")
         .trim()
