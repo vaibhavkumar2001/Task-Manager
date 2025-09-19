@@ -114,7 +114,7 @@ const LoginUser = asyncHandler(async(req,res) => {
     })
 
     if(!user) {
-        throw new APiError(404,"User not found")
+        throw new ApiError(404,"User not found")
     }
 
     //compare the incoming password with the one in DB
