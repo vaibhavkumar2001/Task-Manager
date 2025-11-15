@@ -4,7 +4,6 @@ import connectDB from "./db/index.js"
 import { connect } from "mongoose"
 
 
-
 dotenv.config({
     path: "./.env",
 })
@@ -13,7 +12,7 @@ const PORT = process.env.PORT || 9000
 
 //Connect to Database
 connectDB()
-.then( () => {
+.then(() => {
     app.listen(PORT, () => {
         console.log(`Server is running on port ${PORT}`)
     })
