@@ -102,7 +102,6 @@ const createProject = asyncHandler(async(req,res) => {
 })
 
 
-
 //**********************update Project***************************/
 const updateProject = asyncHandler(async(req,res) => {
     //project ki ID fetch karo 

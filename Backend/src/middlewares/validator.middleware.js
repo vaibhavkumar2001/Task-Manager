@@ -1,4 +1,5 @@
-import { validationResult } from "express-validator"
+import { validationResult } from "express-validator" // yeh express-validator h 
+// jo validation result deta h ki user ne jo req bheji h usme koi error toh nhi
 import { ApiError } from "../utils/api-error.js"
 import { errorHandler } from "./error.middleware.js"
 
